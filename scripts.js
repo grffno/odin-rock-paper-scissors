@@ -75,7 +75,7 @@ function playRound(playerSelection, computerSelection) {
 
         // Display current scores
         player.textContent = `Player: ${playerScore} points`
-        computer.textContent = `Player: ${computerScore} points`
+        computer.textContent = `Computer: ${computerScore} points`
     } else {
         if (playerScore === 5) {
             result.textContent = "Game over! You win!";
